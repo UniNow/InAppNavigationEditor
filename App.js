@@ -25,6 +25,7 @@ const App= () => {
       setStatus('success');
       return true;
     } catch (e) {
+      console.log(e);
       setStatus('error');
       return false;
     }
